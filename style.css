@@ -1,0 +1,239 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700);
+
+body {
+    justify-content: center;
+    color: rgb(25, 25, 25);
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+}
+
+#title-text {
+    font-size: 6em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 75px;
+    margin-bottom: 0;
+    padding-top: 50px;
+}
+
+#settings {
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: rgb(235, 235, 235);
+}
+
+#state-selection {
+    width: 90%;
+    height: 30px;
+    font-size: 17.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+#district-selection {
+    width: 90%;
+    height: 30px;
+    font-size: 17.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+#finish-button {
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    width: 150px;
+    height: 40px;
+    font-size: 17.5px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(17, 105, 177);
+    color: white;
+    cursor: pointer;
+}
+
+#finish-button:hover {
+    background-color: rgb(33, 148, 241);
+    color: white;
+}
+
+#additional-settings {
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgb(235, 235, 235);
+}
+
+#date-selection {
+    height: 30px;
+    font-size: 17.5px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#vaccine-selection {
+    width: 90%;
+    height: 30px;
+    font-size: 17.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+#data-holder {
+    display: none;
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+}
+
+#all-centers-holder {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    overflow: scroll;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#all-centres {
+    margin: auto;
+}
+
+.more-info-button {
+    background-color: rgb(17, 105, 177);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+}
+
+.more-info-button:hover {
+    background-color: rgb(33, 148, 241);
+    cursor: pointer;
+}
+
+#center-info-holder {
+    display: none;
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+}
+
+#center-info-content {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding: 0;
+}
+
+#google-maps-search {
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    font-size: 17.5px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(17, 105, 177);
+    color: white;
+    cursor: pointer;
+}
+
+#google-maps-search:hover {
+    background-color: rgb(33, 148, 241);
+    color: white;
+}
+
+#session-content {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding: 0;
+}
+
+#cowin-button {
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 80%;
+    font-size: 17.5px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(17, 105, 177);
+    color: white;
+    cursor: pointer;
+}
+
+#cowin-button:hover {
+    background-color: rgb(33, 148, 241);
+    color: white;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    background-color: rgb(235, 235, 235);
+    line-height: 50%;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    #title-text {
+        font-size: 14vw;
+    }
+
+    #settings {
+        width: 90%;
+    }
+
+    #additional-settings {
+        width: 90%;
+    }
+
+    #data-holder {
+        width: 90%;
+    }
+
+    #center-info-holder {
+        width: 90%;
+    }
+}
